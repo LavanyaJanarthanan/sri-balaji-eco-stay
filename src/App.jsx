@@ -19,7 +19,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar openBooking={() => setShowBooking(true)} />
+
       <Hero openBooking={() => setShowBooking(true)} />
 
       {showBooking && (

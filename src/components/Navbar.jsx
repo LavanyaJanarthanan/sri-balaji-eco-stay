@@ -1,6 +1,8 @@
 import { useState } from "react";
 
-export default function Navbar() {
+export default function Navbar({ openBooking }) {
+
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -14,7 +16,16 @@ export default function Navbar() {
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
-          <button className="btn-primary small-btn">Book Now</button>
+          <button
+  className="btn-primary small-btn"
+  onClick={() => {
+    openBooking();
+    setMenuOpen(false); // closes mobile menu (nice UX)
+  }}
+>
+  Book Now
+</button>
+
         </li>
       </ul>
 
