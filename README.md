@@ -20,7 +20,6 @@ The project focuses on a clean user interface, smooth animations, and easy navig
 ## How to Run the Project
 
 Step 1: Clone the repository
-```bash
 git clone https://github.com/LavanyaJanarthanan/sri-balaji-eco-stay.git
 
 Step 2: Navigate to the project directory
