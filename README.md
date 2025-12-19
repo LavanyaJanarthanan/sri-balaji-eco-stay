@@ -1,16 +1,42 @@
-# React + Vite
+# Sri Balaji Eco Stay – Frontend Booking Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+Sri Balaji Eco Stay is a responsive frontend booking website developed using React.  
+The website allows users to explore the property, view rooms, amenities, gallery images, and initiate a booking through a modal-based booking form.  
+The project focuses on a clean user interface, smooth animations, and easy navigation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React.js
+- JavaScript (ES6)
+- CSS3
+- Framer Motion (for animations)
+- Git & GitHub
+- Netlify (for deployment)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run the Project
 
-## Expanding the ESLint configuration
+Step 1: Clone the repository
+```bash
+git clone https://github.com/LavanyaJanarthanan/sri-balaji-eco-stay.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Step 2: Navigate to the project directory
+cd sri-balaji-eco-stay
+
+Step 3: Install dependencies
+npm install
+
+Step 4: Start the development server
+npm start
+
+Step 5: Open in browser
+http://localhost:3000
+
+## Live Website
+https://sribalajiecostay.netlify.app/?
+
+## GitHub Repository
+https://github.com/LavanyaJanarthanan/sri-balaji-eco-stay
